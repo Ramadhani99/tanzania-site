@@ -1,0 +1,20 @@
+.gradient-text {
+  background:
+  linear-gradient(to right bottom,
+    #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
+    #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.hide-navbar {
+  transform: translateY(-100%);
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
